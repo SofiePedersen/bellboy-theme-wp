@@ -13,3 +13,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: my-portfolio-theme
 Tags: portfolio, custom-theme, personal, student
 */
+
+body {
+    background-color: rgb(204, 185, 166);
+}
