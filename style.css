@@ -3,17 +3,17 @@
 /* CSS Document */
 
 /*
-Theme Name: My Portfolio Theme
+Theme Name: Bellboy theme
 Author: Sofie Abildgaard Pedersen
-Author URI: 
+Author URI: https://github.com/SofiePedersen/bellboy-theme-wp
 Description: This is a custom WordPress theme built for my personal portfolio. My focus has been on learning and implementing PHP as I wanna explore the field some more.
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: my-portfolio-theme
-Tags: portfolio, custom-theme, personal, student
+Tags: portfolio, custom-theme, personal, student, PHP, Study
 */
 
 body {
-    background-color: rgb(204, 185, 166);
+    background-color: rgb(199, 186, 174);
 }
