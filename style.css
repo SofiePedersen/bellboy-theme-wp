@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-/* CSS Document */
-
 /*
 Theme Name: Bellboy theme
 Author: Sofie Abildgaard Pedersen
@@ -13,6 +11,16 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: my-portfolio-theme
 Tags: portfolio, custom-theme, personal, student, PHP, Study
 */
+
+/* -----------------
+COLOR PALLET
+
+Dark Teal: #192524;
+Gray Teal: #3C5759;
+Light Mint: #D1EBDB;
+Light Cardboard: rgb(199, 186, 174);
+Almost White: #EFECE9;
+----------------- */
 
 body {
     background-color: rgb(199, 186, 174);
