@@ -21,3 +21,57 @@ Light Mint: #D1EBDB;
 Light Cardboard: rgb(199, 186, 174);
 Almost White: #EFECE9;
 ----------------- */
+
+/* UNIVERSALS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+p {}
+a {}
+li {}
+
+body {
+   background-color: rgb(199, 186, 174);
+}
+
+.bb-wp-header {
+    background-color: red;
+    padding: 1rem;
+}
+
+.bb-wp-header a {
+    color: green;
+    text-decoration: none;
+}
+
+.menu-main_menu-container {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+}
+
+#menu-main_menu {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+
+.menu-item-type-post_type{
+    margin-left: 2rem;
+}
+
+.menu-item-37 {
+    margin-right: auto;
+    margin-left: 0;
+}
