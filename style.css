@@ -67,11 +67,10 @@ body {
     list-style-type: none;
 }
 
-.menu-item-type-post_type{
+/* .menu-item-type-post_type{   
     margin-left: 2rem;
-}
+} */
 
-.menu-item-37 {
-    margin-right: auto;
-    margin-left: 0;
+.bb-wp-header .menu-item {
+        margin-left: 2rem;
 }

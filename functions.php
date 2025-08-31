@@ -17,10 +17,11 @@ function register_projects_post_type() {
         // public true betyder besøgende kan se postet, 
         // var den sat til false ville kun en admin kunne se den
         'public' => true,
-        // has_archive gør at der automatisk oprettes et archive page når den er sat til true
-        'has_archive' => true,
         // rewrite gør det muligt at styre hvordan URL'en skal se ud (navn)
-        'rewrite' => array('slug' => 'projects'),
+        'rewrite' => array('slug' => 'projekter'),
+        // has_archive gør at der automatisk oprettes et archive page når den er sat til true.
+        // I dette tilfælde vil jeg gerne have archive på projekter-siden.
+        'has_archive' => 'projekter',
         // supports er hvilke features jeg gerne vil have tilgængeligt når jeg redigere min post
         'supports' => array('title', 'editor', 'thumbnail', 'excerpt'),
         //icon in admin sidebar
@@ -31,4 +32,3 @@ function register_projects_post_type() {
 // "Hooks are a system WordPress uses to let developers “hook into” or tap into the execution flow at specific points."
 add_action('init', 'register_projects_post_type');
 ?>
-
