@@ -1,5 +1,7 @@
 <?php get_header();?>
 
-<?php echo '<h1>This is front-page.php</h1>';?>
+<main class="bb-wp-fp-main">
+    <?php the_content();?>
+</main>
 
 <?php get_footer();?>

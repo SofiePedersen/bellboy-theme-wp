@@ -44,9 +44,20 @@ body {
    background-color: rgb(199, 186, 174);
 }
 
+.bb-wp-fp-main {
+    background-color: aqua;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 5000px;
+}
+
 .bb-wp-header {
     background-color: red;
-    padding: 1rem;
+    padding: 1rem 0rem;
+    width: 100%;
+    position: sticky;
+    top: 0;
 }
 
 .bb-wp-header a {
@@ -66,10 +77,6 @@ body {
     justify-content: end;
     list-style-type: none;
 }
-
-/* .menu-item-type-post_type{   
-    margin-left: 2rem;
-} */
 
 .bb-wp-header .menu-item {
         margin-left: 2rem;
